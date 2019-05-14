@@ -160,7 +160,7 @@ CGFloat const SLKAutoCompletionViewDefaultHeight = 140.0;
     self.automaticallyAdjustsScrollViewInsets = YES;
     self.extendedLayoutIncludesOpaqueBars = YES;
 
-    CGRect _cachedKeyboardRect;
+    _cachedKeyboardRect = CGRectNull;
 }
 
 
